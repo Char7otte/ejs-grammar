@@ -10,7 +10,7 @@
 		"description": "EJS outputs no value"
 	},
 	"EJS Output Escaped": {
-		"prefix": "ejsesc",
+		"prefix": "ejs-",
 		"body": ["<%- $1 %>$2"],
 		"description": "EJS outputs value"
 	},
