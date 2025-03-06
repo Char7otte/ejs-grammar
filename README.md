@@ -1,6 +1,6 @@
 # Fork of [ejs-grammar](https://github.com/Digitalbrainstem/ejs-grammar) 
 
-Contains different syntax for some snippets. I have no idea how to add this as an extension into vscode, so just create a snippet file & paste idk
+I took the snippet file out & added in personal prefixes. I don't know how to add this as an extension in vscode so just copy and paste idk
 
 ## Snippets
 
