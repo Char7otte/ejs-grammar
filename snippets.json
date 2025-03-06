@@ -1,0 +1,22 @@
+{
+    "EJS Output Value": {
+        "prefix": "ejs=",
+        "body": ["<%= $1 %>$2"],
+        "description": "EJS outputs no value"
+    },
+    "EJS Output Escaped": {
+        "prefix": "ejs-",
+        "body": ["<%- $1 %>$2"],
+        "description": "EJS outputs value"
+    },
+    "EJS Include": {
+        "prefix": "ejs--",
+        "body": ["<%- include('$1') %>$2"],
+        "description": "EJS include statement"
+    },
+    "EJS For...of": {
+        "prefix": "ejsforof",
+        "body": ["<% for (const ${1:element} of ${2:elements}) { %>", " $3", "<% } %>"],
+        "description": "EJS For...of Loop"
+    }
+}
