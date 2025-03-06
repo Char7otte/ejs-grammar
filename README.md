@@ -4,18 +4,23 @@ I don't know how to add this as a vscode extension, so I just took the `snippet.
 
 ## Installation
 
-Install the [EJS language support extension](https://marketplace.visualstudio.com/items?itemName=DigitalBrainstem.javascript-ejs-support) in order to create snippets for `.ejs` files. \
-\
-On the top left of vscode, go to `File > Preferences > Configure Snippets`. This will bring up the command palette, where you can type in `ejs` to create snippet for `.ejs` files. Paste the contents of the `snippets.json` file inside the newly created `.json` file.
+Windows: Place `html.json` in `%appdata%/Code/User/snippets`.
+If snippets aren't appearing, add the following to `%appdata%/Code/User/settings.json`:
+
+```
+    "emmet.includeLanguages": {
+        "ejs": "html",
+    },
+```
 
 ## Snippets
 
 → Denotes the `TAB` key.
 
-| Snippet→ | Output |
-| --- | --- |
-| `ejs→`    | `<% %>` - No output tag         |
-| `ejs=→`  | `<%= %>` - Outputs HTML value    |
-| `ejs-→`  | `<%- %>` - Outputs unescaped     |
-| `ejs--→`  | `include` statement             |
-| `ejsforof→`  | `for...of` Javascript Loop   |
+| Snippet→    | Output                         | Remarks                                                           |
+| ----------- | ------------------------------ | ----------------------------------------------------------------- |
+| `ejs→`      | `<% %>` - No output tag        |
+| `ejse→`     | `<%= %>` - Outputs HTML value. | This doesn't follow the other prefixes because `=` can't be used. |
+| `ejs-→`     | `<%- %>` - Outputs unescaped   |
+| `ejs--→`    | `include` statement            |
+| `ejsforof→` | `for...of` Javascript Loop     |
