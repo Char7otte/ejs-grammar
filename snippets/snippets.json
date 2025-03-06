@@ -38,6 +38,15 @@
 		],
 		"description": "EJS For Loop"
 	},
+	"EJS For...of": {
+		"prefix": "ejsforof",
+		"body": [
+			"<% for (const ${1:element} of ${2:elements}) { %>",
+			" $3",
+			"<% } %>"
+		],
+		"description": "EJS For...of Loop"
+	},
 	"EJS ForEach": {
 		"prefix": "ejseach",
 		"body": ["<% ${1:array}.forEach(${2:element} => { %>", " $3", "<% }) %>"],
