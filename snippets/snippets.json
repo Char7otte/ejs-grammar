@@ -25,7 +25,7 @@
 		"description": "EJS outputs a literal '<%'"
 	},
 	"EJS Include": {
-		"prefix": "ejsinc",
+		"prefix": "ejs--",
 		"body": ["<%- include('$1') %>$2"],
 		"description": "EJS include statement"
 	},
