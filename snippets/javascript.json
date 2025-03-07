@@ -42,5 +42,9 @@
         "body": ["app.patch(\"$1\", (req, res) => {", "$2", "});"],
         "description": "Express app.patch function"
     },
+    "Express delete request": {
+        "prefix": "appdel",
+        "body": ["app.delete(\"$1\", (req, res) => {", "$2", "});"],
+        "description": "Express app.delete function"
     }
 }
