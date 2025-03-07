@@ -34,7 +34,12 @@ Basically `ejs` with whatever extra character to create a tag.
 
 | Snippet→    | Output                         | Remarks                                                           |
 | ----------- | ------------------------------ | ----------------------------------------------------------------- |
-| `exp!`      | Boilerplate for Express, method-override, EJS, and Mongoose. (Way too long to put in here)       | Follows the `!` prefix for HTML boilerplate snippet. A `package.json` file is included with the NPM packages.
+| `exp!`      | Boilerplate for Express, method-override, EJS, and Mongoose. | Follows the `!` prefix for HTML boilerplate snippet. A `package.json` file is included with the NPM packages.
+| `appget` | `app.get("/", (req, res) => {})` |
+| `appost` | `app.post("/", (req, res) => {})` | Typing `p` 3 times in a row is uncomfortable
+| `appatch` | `app.patch("/", (req, res) => {})` | Typing `p` 3 times in a row is uncomfortable
+| `appdel` | `app.delete("/", (req, res) => {})` |
+
 
 ## Credits
 
