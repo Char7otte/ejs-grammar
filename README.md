@@ -38,4 +38,4 @@ Basically `ejs` with whatever extra character to create a tag.
 
 ## Credits
 
-Originally forked from [ejs-grammar](https://github.com/Digitalbrainstem/ejs-grammar) to derive my own EJS snippets, but expanded to include general express app snippets.
+Originally forked from [ejs-grammar](https://github.com/Digitalbrainstem/ejs-grammar) with an edit to the snippet prefixes, but I don't know how to make it a vscode extension.
