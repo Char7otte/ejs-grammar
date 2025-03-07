@@ -32,5 +32,9 @@
         "body": ["app.get(\"$1\", (req, res) => {", "$2", "});"],
         "description": "Express app.get function"
     },
+    "Express post request": {
+        "prefix": "appost",
+        "body": ["app.post(\"$1\", (req, res) => {", "$2", "});"],
+        "description": "Express app.post function"
     }
 }
