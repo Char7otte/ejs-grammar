@@ -36,5 +36,11 @@
         "prefix": "appost",
         "body": ["app.post(\"$1\", (req, res) => {", "$2", "});"],
         "description": "Express app.post function"
+    },
+    "Express patch request": {
+        "prefix": "appatch",
+        "body": ["app.patch(\"$1\", (req, res) => {", "$2", "});"],
+        "description": "Express app.patch function"
+    },
     }
 }
