@@ -26,5 +26,11 @@
             "});"
         ],
         "description": "Basic Express setup with EJS, Mongoose, and method-override."
+    },
+    "Express get request": {
+        "prefix": "appget",
+        "body": ["app.get(\"$1\", (req, res) => {", "$2", "});"],
+        "description": "Express app.get function"
+    },
     }
 }
